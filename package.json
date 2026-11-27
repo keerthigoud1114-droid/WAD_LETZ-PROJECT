@@ -1,0 +1,24 @@
+{
+  "name": "campus-quick-bite",
+  "version": "1.2.0",
+  "description": "Smart Canteen Ordering and Kitchen Display System with Mock UPI and Token Generation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "canteen-management",
+    "kds",
+    "food-ordering",
+    "vanilla-js",
+    "express"
+  ],
+  "author": "Nomaan",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
